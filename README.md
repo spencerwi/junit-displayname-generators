@@ -1,5 +1,7 @@
 # junit-displayname-generators
 
+[![Build Status](https://travis-ci.org/spencerwi/junit-displayname-generators.svg?branch=master)](https://travis-ci.org/spencerwi/junit-displayname-generators)
+
 [JUnit 5.4 and above support specifying a `@DisplayNameGenerator`](https://junit.org/junit5/docs/current/user-guide/#writing-tests-display-name-generator) to "rewrite" your test function names into more  
 readable display names for output, like so:
 
