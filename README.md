@@ -38,4 +38,13 @@ names,
 "uncamelizing" them and replacing underscores with spaces (so that `testFoo_WhenUserIsNotFound_Throws` becomes `"test Foo When User Is Not Logged In Throws"`).
 
 ### Installation
-TODO: ship this to Maven Central
+
+It's published in Maven Central! So all you have to do is add this to your Maven pomfile's dependency section (or the equivalent for your build tool):
+
+```xml
+<dependency>
+    <groupId>com.spencerwi</groupId>
+    <artifactId>junit-displayname-generators</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
